@@ -1,12 +1,12 @@
-**致谢：该代码是对yjxiong代码的改进，弥补了里面的些许错误，非常感谢yjxiong的开源精神**
+## **致谢：该代码是对yjxiong代码的改进，弥补了里面的些许错误，非常感谢yjxiong的开源精神**
 
-**前言**：
+## **前言** 
 
 该代码是在caffe框架运行，是yjxiong的https://github.com/yjxiong/caffe 的一些改进，caffe是用的他的修改版，即里面包含了openmpi多线程，具体使用方法参考上面的网址。
 由于他的caffe里面东西较多，在亲自移植代码后，发现有许多小错误，对其进行了修改。
 该代码在移植的过程中，使用了4块GTX1080Ti的显卡。
 
-**使用**：
+## 使用：
 
 大部分跟yjxiong所言一致，只是有部分地方进行了修正。
 
@@ -25,7 +25,7 @@
 具体的准确率情况参考csdn博客:http://blog.csdn.net/small_ARM/article/details/78283205
 
 
-**Citation** 
+## **Citation** 
 
 You are encouraged to also cite one of the following papers if you find this repo helpful
 
@@ -51,7 +51,7 @@ You are encouraged to also cite one of the following papers if you find this rep
 
 Following is the original README of Caffe.
 
-**Caffe**
+## **Caffe**
 
 
 Caffe is a deep learning framework made with expression, speed, and modularity in mind. It is developed by the Berkeley Vision and Learning Center (BVLC) and community contributors.
@@ -70,7 +70,7 @@ Join the chat at https://gitter.im/BVLC/caffe
 Please join the caffe-users group or gitter chat to ask questions and talk about methods and models. Framework development discussions and thorough bug reports are collected on Issues.
 
 Happy brewing!
-**License and Citation**
+## **License and Citation**
 
 Caffe is released under the BSD 2-Clause license. The BVLC reference models are released for unrestricted use.
 
