@@ -1,9 +1,13 @@
-**致谢：该代码是对yjxiong代码的改进，弥补了里面的些许错误，非常感谢yjxiong的开源精神**
+###**致谢：该代码是对yjxiong代码的改进，弥补了里面的些许错误，非常感谢yjxiong的开源精神**
+
 ###**前言**：
+
 该代码是在caffe框架运行，是yjxiong的https://github.com/yjxiong/caffe 的一些改进，caffe是用的他的修改版，即里面包含了openmpi多线程，具体使用方法参考上面的网址。
 由于他的caffe里面东西较多，在亲自移植代码后，发现有许多小错误，对其进行了修改。
 该代码在移植的过程中，使用了4块GTX1080Ti的显卡。
+
 ###**使用**：
+
 大部分跟yjxiong所言一致，只是有部分地方进行了修正。
 
 - models/action_recognition文件夹下有多个prototxt文件，其中flow.solver文件有两个，New版本是我修改后的版本，是与论文一致的版本。不带New的版本是原版的solver文件。区别在于是否将图片resize成340*256和scale_ratios是否含有0.66。原版将其省略，而我将其加上。虽然准确率并没有太大的变化。因此，**使用带New的**.
@@ -21,7 +25,7 @@
 具体的准确率情况参考csdn博客:http://blog.csdn.net/small_ARM/article/details/78283205
 
 
-###**Citation**
+###**Citation** 
 
 You are encouraged to also cite one of the following papers if you find this repo helpful
 
