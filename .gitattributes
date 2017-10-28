@@ -1,2 +1,2 @@
-*.py linguist-language=Scala
-*.cpp linguist-language=Scala
+*.cmake linguist-language=python
+
