@@ -1,0 +1,2 @@
+*.py linguist-language=Scala
+*.cpp linguist-language=Scala
