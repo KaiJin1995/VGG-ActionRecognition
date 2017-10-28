@@ -1,2 +1,2 @@
 *.cmake linguist-language=python
-
+Makefile linguist-language=python
