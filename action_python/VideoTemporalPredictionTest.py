@@ -31,7 +31,7 @@ def VideoTemporalPrediction(
 
     # selection
   #  step = int(math.floor((duration-optical_flow_frames+1)/num_samples))   #original
-    step = int(math.floor((duration-optical_flow_frames+1-1)/num_samples-1))   #modified
+    step = int(math.floor((duration-optical_flow_frames+1-1)/(num_samples-1)))   #modified
     dims = (256,340,optical_flow_frames*2,num_samples)
     flow = np.zeros(shape=dims, dtype=np.float64)
     flow_flip = np.zeros(shape=dims, dtype=np.float64)
